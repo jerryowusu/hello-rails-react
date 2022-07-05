@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-class Root extends React.Component {
+
+class App extends React.Component {
   render () {
     return (
       <React.Fragment>
@@ -10,7 +11,7 @@ class Root extends React.Component {
   }
 }
 
-Root.propTypes = {
+App.propTypes = {
   greeting: PropTypes.string
 };
-export default Root
+export default App
