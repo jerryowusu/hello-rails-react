@@ -6,8 +6,8 @@ class Homepage extends React.Component {
     return (
       <React.Fragment>
         <div className='container'>
-          <h1>Rails-React testing</h1>
-        <Link to='/greetings' className="button3">Go to Greetings page</Link>
+          <h1>Rails-React </h1>
+        <Link to='/greetings' className="button3"> Greetings page</Link>
         </div>
       </React.Fragment>
     );
